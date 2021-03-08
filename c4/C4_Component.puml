@@ -10,7 +10,7 @@
 ' Colors
 ' ##################################
 
-!define COMPONENT_BG_COLOR PGREEN
+!define COMPONENT_BG_COLOR GPBLU1
 
 ' Styling
 ' ##################################
@@ -19,14 +19,14 @@ skinparam rectangle<<component>> {
     StereotypeFontColor ELEMENT_FONT_COLOR
     FontColor #000000
     BackgroundColor COMPONENT_BG_COLOR
-    BorderColor PDKGREEN
+    BorderColor GPBLU3
 }
 
 skinparam database<<component>> {
     StereotypeFontColor ELEMENT_FONT_COLOR
     FontColor #000000
     BackgroundColor COMPONENT_BG_COLOR
-    BorderColor PDKGREEN
+    BorderColor GPBLU3
 }
 
 ' Layout

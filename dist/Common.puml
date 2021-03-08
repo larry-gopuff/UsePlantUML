@@ -22,10 +22,29 @@
 !define PGLTGRAY2 #96A1A9
 !define PGLTGRAY3 #657079
 
+!define GPBLU1 #00BAFF
+!define GPBLU2 #1A5A95
+!define GPBLU3 #1B1464
+!define GPBLU4 #ADE5FF
+!define GPTXTLT #FFFFFF
+!define GPTXTDK #1B1464
+
+!define GRAY1 #E1E3E7
+!define GRAY2 #C8CAD2
+!define GRAY3 #ABB1BC
+!define GRAY4 #788092
+!define GRAY5 #42506A
+!define GRAY6 #273755
+!define GRAY7 #0C1E40
+
+!define CMAIN  
+
 !define _COLOR PDKGREEN
 !define _BG_COLOR #FFFFFF
 !define _BORDER_COLOR PDKGREEN
 !define _SYMBOL_COLOR _COLOR
+
+
 
 '--- Leave Azure colors separate for Azure specific components
 !define AZURE_COLOR #0072C6
