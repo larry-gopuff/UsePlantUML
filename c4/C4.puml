@@ -1,8 +1,8 @@
 
 ' https://github.com/larryr/UsePlantUML
 
-'!includeurl https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Common.puml
-!includeurl ../dist/Common.puml
+!includeurl https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Common.puml
+'!includeurl ../dist/Common.puml
 
 ' Colors
 ' ##################################

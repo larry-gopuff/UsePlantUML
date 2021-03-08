@@ -1,8 +1,8 @@
 @startuml Hello World
 !pragma revision 1
 
-!define Puml dist
-'!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+'!define Puml ../dist
+!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
 !include Puml/Common.puml
 
 
@@ -20,5 +20,11 @@ rectangle PVLTGREEN "P-VLTGreen"
 rectangle PGLTGRAY1 "P-GLTGray1"
 rectangle PGLTGRAY2 "P-GLTGray2"
 rectangle PGLTGRAY3 "P-GLTGray3"
+
+rectangle GPBLU1 " GPBLU1 "
+rectangle GPBLU2 " GPBLU2 "
+rectangle GPBLU3 "GPBLU3 "
+rectangle GPBLU4 "GPBLU4 "
+
 
 @enduml
