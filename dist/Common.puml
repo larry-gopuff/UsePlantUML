@@ -39,9 +39,9 @@
 
 !define CMAIN  
 
-!define _COLOR PDKGREEN
+!define _COLOR GPBLU2
 !define _BG_COLOR #FFFFFF
-!define _BORDER_COLOR PDKGREEN
+!define _BORDER_COLOR GPBLU4
 !define _SYMBOL_COLOR _COLOR
 
 
