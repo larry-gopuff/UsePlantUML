@@ -39,6 +39,11 @@
 
 !define CMAIN  
 
+!define  BACK1  GPBLU1
+!define  BORD1  GPBLU2
+!define  BACK2  GPBLU4
+!define  GRAYFONT GRAY4
+
 !define _COLOR GPBLU2
 !define _BG_COLOR #FFFFFF
 !define _BORDER_COLOR GPBLU4
