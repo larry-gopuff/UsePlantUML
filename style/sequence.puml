@@ -6,56 +6,62 @@
 'include ../dist/Common.puml
 
 skinparam Sequence {
-    ActorBackgroundColor        PVLTGREEN
-    ActorBorderColor            PDKGREEN
-    BoxBackgroundColor          PGLTGRAY1
-    BoxBorderColor              PGLTGRAY2
-    DividerFontColor            PGLTGRAY3
-    DividerBorderColor          PGLTGRAY3
-    GroupBackgroundColor        PGLTGRAY
-    GroupBorderColor            PGLTGRAY3
+    BoxBackgroundColor          GRAY1
+    BoxBorderColor              GRAY2
+    DividerFontColor            GRAY3
+    DividerBorderColor          GRAY4
+    GroupBackgroundColor        GRAY1
+    GroupBorderColor            GRAY4
     GroupBorderThickness        1
-    GroupFontColor              PGLTGRAY3
-    GroupHeaderFontColor        PGLTGRAY3
+    GroupFontColor              GRAY4
+    GroupHeaderFontColor        GRAY5
     GroupHeaderFontStyle        italic
-    LifeLineBackgroundColor     PLTGREEN
-    LifeLineBorderColor         PDKGREEN
-    ParticipantBackgroundColor  PLTGREEN
-    ParticipantBorderColor      PDKGREEN
-    ReferenceBorderColor        PGLTGRAY3
+    LifeLineBackgroundColor     BACK1
+    LifeLineBorderColor         BORD1
+    ParticipantBackgroundColor  BACK1
+    ParticipantBorderColor      BORD1
+    ReferenceBorderColor        GRAY4
     ReferenceBorderThickness    1
-    ReferenceFontColor          PGLTGRAY3
-}
-skinparam Actor {
-    BackgroundColor        PVLTGREEN
-    BorderColor            PDKGREEN  
-}
-skinparam Boundary {
-    BackgroundColor        PVLTGREEN
-    BorderColor            PDKGREEN  
-}
-skinparam Control {
-    BackgroundColor        PVLTGREEN
-    BorderColor            PDKGREEN  
-}
-skinparam Entity {
-    BackgroundColor        PVLTGREEN
-    BorderColor            PDKGREEN  
-}
-skinparam Database {
-    BackgroundColor        PVLTGREEN
-    BorderColor            PDKGREEN  
+    ReferenceFontColor          GRAY4
 }
 
+skinparam Actor {
+    BackgroundColor        BACK1
+    BorderColor            BORD1  
+}
+skinparam Boundary {
+    BackgroundColor        BACK1
+    BorderColor            BORD1  
+}
+skinparam Control {
+    BackgroundColor        BACK1
+    BorderColor            BORD1  
+}
+skinparam Entity {
+    BackgroundColor        BACK1
+    BorderColor            BORD1  
+}
+skinparam Database {
+    BackgroundColor        BACK1
+    BorderColor            BORD1  
+}
 skinparam Arrow {
-    Color     PDKGREEN
+    Color     BORD1
     FontColor PAPURPLE
     Thickness 2
 }
 skinparam Note {
-    BackgroundColor PVLTGREEN
-    BorderColor     PGLTGRAY2
-    FontColor       PGLTGRAY3
+    BackgroundColor BACK2
+    BorderColor     BORD1
+    FontColor       GRAYFONT
+}
+skinparam Collections {
+    BackgroundColor BACK1
+    BorderColor     BORD1
+}
+skinparam Queue {
+    BackgroundColor BACK1
+    BorderColor     BORD1
 }
 
 skinparam BoxPadding 10
