@@ -1,0 +1,30 @@
+' 
+' usecase diagram styles
+'
+'-- choose local or repo; commenting out one or the other
+!includeurl https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Common.puml
+'include ../dist/Common.puml
+
+skinparam usecase {
+  backgroundcolor  BACK1
+  bordercolor      BORD1
+}
+skinparam actor {
+  backgroundcolor  BACK1
+  bordercolor      BORD1
+  style            awesome
+}
+skinparam package {
+  backgroundcolor  GRAY1
+  bordercolor      GRAY4
+}
+skinparam Arrow {
+    Color     BORD1
+    FontColor PAPURPLE
+    Thickness 2
+}
+skinparam Note {
+    BackgroundColor BACK2
+    BorderColor     BORD1
+    FontColor       GRAYFONT
+}
