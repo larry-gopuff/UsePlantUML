@@ -9,7 +9,8 @@
 skinparam Class {
     BackgroundColor        BACK1
     BorderColor            BORD1
-    ArrowColor             BLACK
+    ArrowColor             BORD1
+    FontColor             #FFFFFF
 }
 skinparam Arrow {
     Color     BORD1
