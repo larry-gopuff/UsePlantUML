@@ -7,18 +7,18 @@
 'include ../dist/Common.puml
 
 skinparam Class {
-    BackgroundColor        PVLTGREEN
-    BorderColor            PDKGREEN
+    BackgroundColor        BACK1
+    BorderColor            BORD1
     ArrowColor             BLACK
 }
 skinparam Arrow {
-    Color     PDKGREEN
+    Color     BORD1
     FontColor PAPURPLE
     Thickness 2
 }
 skinparam Note {
-    BackgroundColor PVLTGREEN
-    BorderColor     PGLTGRAY2
-    FontColor       PGLTGRAY3
+    BackgroundColor BACK2
+    BorderColor     BORD1
+    FontColor       GRAYFONT
 }
 
