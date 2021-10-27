@@ -46,7 +46,7 @@ skinparam Cloud {
     FontColor       PGRAY
 }
   
-skinparam Databse {
+skinparam Database {
     BackgroundColor transparent
     BorderColor     PABLUE
     FontColor       PGRAY
